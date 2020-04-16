@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/*css document*/
+
+.package-main-data {
+    margin: 20px 40px 20px 40px;
+    padding: 5px;
+}
+
+.about-image {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.package-title {
+    margin: 5px 40px 20px 40px;
+    padding: 0px;
+    font-family: segoe ui;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    color: #030736;
+}
+
+.package-table {
+    border-color: #0a629c;
+    font-family: segoe ui;
+    font-size: 18px;
+    font-weight: 200;
+    border: 2px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    width: 100%;
+}
+
+.row-package {
+    color: #081170;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    border-bottom-color: #0a629c;
+}
+
+.row-package-service {
+    width: 30%;
+}
+
+.row-package-desc {
+    width: 20px;
+    height: 20px;
+}
+
+.disp-package {
+    margin: 10px 5px;
+    font-size: 18px;
+    font-weight: 200;
+    border-bottom-style: solid;
+    border-bottom: 2px;
+    border-bottom-color: #0a629c;
+}
+
+.disp-package-service {
+    color: #081170;
+    font-weight: 300;
+}
+
+.disp-package-desc {
+    color: #045e01;
+    text-align: center;
+}
+
+.disp-package-desc-x {
+    text-align: center;
+    color: red;
+}
+
+.row-cost {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+tr {
+    background-color: white;
+}
+
+tr:hover {
+    background-image: linear-gradient(31deg, rgba(26, 200, 163, 0.7931547619047619) 0%, rgba(5, 126, 228, 0.6502976190476191) 46%, rgba(1, 18, 65, 0.4738270308123249) 100%);
+    color: white;
+    transition: 0.4s ease-in;
+}
+
+tr.row-package:hover {
+    color: white;
+    transition: 0.4s ease-in
+}
+
+tr.disp-package-service:hover {
+    color: white;
+    transition: 0.4s ease-in
+}
+
+tr.disp-package-desc-x:hover {
+    color: white;
+    transition: 0.4s ease-in
+}
+
+tr.disp-package-desc:hover {
+    color: white;
+    transition: 0.4s ease-in
+}
+
+.note-package {
+    margin: 10px 40px 10px 20px;
+    font-family: segoe ui;
+    font-size: 14px;
+    font-style: italic;
+    color: #0a629c;
+}
+
+@media screen and (max-width: 650px) {
+    .package-title {
+        margin: 5px 40px 20px 40px;
+        padding: 0px;
+        font-family: segoe ui;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        color: #030736;
+    }
+    .row-package-desc {
+        font-size: 14px;
+    }
+    .row-cost {
+        font-size: 12px;
+    }
+    .disp-package-service {
+        font-size: 14px;
+    }
+    .note-package {
+        font-size: 12px;
+    }
+}

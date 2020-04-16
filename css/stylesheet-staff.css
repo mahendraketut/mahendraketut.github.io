@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/*css document*/
+
+.staff-image {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.staff-main-data {
+    margin: 20px 0px 20px;
+    padding: 5px;
+}
+
+.avatar-title {
+    margin: 20px 40px 20px 40px;
+    padding: 10px;
+    font-family: segoe UI;
+    font-size: 36px;
+    font-weight: 300;
+    color: #030736;
+    text-align: center;
+}
+
+.flip-staff-x {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    margin: 10px 15px 30px 15px;
+    float: left;
+}
+
+.flip-staff-inner-x {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-staff-x:hover .flip-staff-inner-x {
+    transform: rotateX(180deg);
+}
+
+.flip-box-front-x,
+.flip-box-back-x {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-box-front-x {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-box-back-x {
+    background-image: linear-gradient(31deg, rgba(26, 200, 163, 0.7931547619047619) 0%, rgba(5, 126, 228, 0.6502976190476191) 46%, rgba(1, 18, 65, 0.4738270308123249) 100%);
+    color: white;
+    transform: rotateX(180deg);
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.flip-staff-y {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    margin: 10px 15px 30px 15px;
+    float: left;
+}
+
+.flip-staff-inner-y {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-staff-y:hover .flip-staff-inner-y {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front-y,
+.flip-box-back-y {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-box-front-y {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-box-back-y {
+    background-image: linear-gradient(31deg, rgba(26, 200, 163, 0.7931547619047619) 0%, rgba(5, 126, 228, 0.6502976190476191) 46%, rgba(1, 18, 65, 0.4738270308123249) 100%);
+    color: white;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 300;
+    text-decoration: dashed;
+}
+
+.avatar-staff {
+    width: 300px;
+    margin: 0px;
+}
+
+.staff-description {
+    font-family: segoe ui;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    margin: 40px 40px 20px 40px;
+    float: left;
+}
+
+@media screen and (max-width: 600px) {
+    .flip-staff-x {
+        left: 25%;
+    }
+    .flip-staff-inner-x {
+        left: 25%;
+    }
+    .flip-staff-y {
+        left: 25%;
+    }
+    .flip-staff-inner-y {
+        left: 25%;
+    }
+}
