@@ -25,7 +25,6 @@
     padding: 20px 0 30px 0;
     margin: 150px 60px 0px 60px;
     font-family: segoe ui;
-    width: 50;
     display: block;
 }
 
@@ -162,7 +161,6 @@ input[type=submit]:hover {
         padding: 20px 0 30px 0;
         margin: 30px 60px 0px 60px;
         font-family: segoe ui;
-        width: 50;
         display: block;
     }
     .hide-in-desktop {
