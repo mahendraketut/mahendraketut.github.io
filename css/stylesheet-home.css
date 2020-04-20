@@ -183,6 +183,25 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .navigation li a {
+        width: 100px;
+    }
+    .main-avatar {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .prev,
+    .next {
+        display: none;
+    }
+    .main-avatar {
+        width: 25%;
+    }
+}
+
 @media screen and (max-width: 650px) {
     .text {
         display: none;

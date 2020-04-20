@@ -142,8 +142,8 @@ footer {
     color: white;
     padding: 20px 40px 20px 40px;
     margin-top: 20px;
-    width: 100%;
     float: right;
+    width: 100%;
     text-align: center;
 }
 
@@ -152,6 +152,7 @@ footer {
     font-size: 16px;
     font-family: segoe UI;
     padding: 0px 20px 0px 20px;
+    margin: 0px 40px 0px 40px;
 }
 
 #loader {
@@ -223,6 +224,12 @@ footer {
 
 #myDiv {
     display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .navigation li a {
+        width: 100px;
+    }
 }
 
 @media screen and (max-width: 800px) {
